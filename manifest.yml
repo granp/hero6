@@ -1,9 +1,4 @@
 ---
-declared-services:
-  mysql-db:
-    label: cleardb
-    plan: spark
-
 applications:
 - name: hero6
   memory: 128M
