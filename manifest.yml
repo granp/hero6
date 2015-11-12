@@ -2,6 +2,10 @@
 applications:
 - name: hero6
   memory: 128M
+  instances: 1
+  random-route: true
+  path: ./
+  stack: cflinuxfs2
   buildpack: https://github.com/cloudfoundry/php-buildpack#v3.2.2
   env:
    CF_STAGING_TIMEOUT: 15
