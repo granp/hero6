@@ -57,10 +57,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'     => env('DB_HOST', $sqlCreds['hostname']),
-            'database' => env('DB_DATABASE', $sqlCreds['name']),
-            'username' => env('DB_USERNAME', $sqlCreds['username']),
-            'password' => env('DB_PASSWORD', $sqlCreds['password']),
+            'host'     => $sqlCreds['hostname'],
+            'database' => $sqlCreds['name'],
+            'username' => $sqlCreds['username'],
+            'password' => $sqlCreds['password'],
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
