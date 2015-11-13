@@ -6,15 +6,10 @@
                 <!-- START BREADCRUMB -->
                 <ul class="breadcrumb">
                     <li><a href="{{ URL::route('dashboard') }}">Home</a></li>
-                    <li><a href="{{ URL::route('route') }}">Routes</a></li>
+                    <li class="active">Routes</li>
                 </ul>
                 <!-- END BREADCRUMB -->                                                
                 
-                <!-- PAGE TITLE -->
-                <div class="page-title">                    
-                    <h2><span class="fa fa-exchange"></span> Routes</h2>
-                </div>
-                <!-- END PAGE TITLE -->                     
                 
                 <!-- PAGE CONTENT WRAPPER -->
                 <div class="page-content-wrap">
@@ -25,7 +20,7 @@
                             <!-- DEFAULT LIST GROUP -->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Cities</h3>
+                                    <h3 class="panel-title">City Destinations</h3>
                                 </div>
                                 <div class="panel-body">
                                     <ul class="list-group border-bottom">

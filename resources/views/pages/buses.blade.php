@@ -6,15 +6,9 @@
 <!-- START BREADCRUMB -->
                 <ul class="breadcrumb">
                     <li><a href="{{ URL::route('dashboard') }}">Home</a></li>
-                    <li><a href="{{ URL::route('buses') }}">Bus</a></li>
+                   <li class="active">Bus</li>
                 </ul>
-                <!-- END BREADCRUMB -->                                                
-                
-                <!-- PAGE TITLE -->
-                <div class="page-title">                    
-                    <h2><span class="glyphicon glyphicon-plane"></span>Bus</h2>
-                </div>
-                <!-- END PAGE TITLE -->                     
+                <!-- END BREADCRUMB -->                                                                 
                 
                 <!-- PAGE CONTENT WRAPPER -->
                 <div class="page-content-wrap">

@@ -57,8 +57,8 @@ class SeatBookingController extends Controller
                     ->get();
 
                     foreach ($routeInfo as $key => $value) {
-                        $origin = $value->loc_from;
-                        $destination = $value->loc_to;
+                        $origin = $value->origin;
+                        $destination = $value->destination;
                     }
 
 

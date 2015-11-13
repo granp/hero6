@@ -57,13 +57,13 @@
                             @endif
                             <!-- CONTACTS WITH CONTROLS -->
                             <div class="panel panel-default">
-                                <div class="panel-heading">
+                                <!-- <div class="panel-heading">
                                     <h3 class="panel-title">Bus Config</h3>
                                     <ul class="panel-controls">                                                                        
                                         <li><div class="btn-group">
                                             </div></li>
                                     </ul>                                   
-                                </div>
+                                </div> -->
 
                                 <div class="panel-body">   
                                 <!-- <form class="form-horizontal" role="form">  -->

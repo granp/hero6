@@ -6,15 +6,9 @@
 <!-- START BREADCRUMB -->
                 <ul class="breadcrumb">
                     <li><a href="{{ URL::route('dashboard') }}">Home</a></li>
-                    <li><a href="{{ URL::route('buses') }}">Bus</a></li>
+                    <li class="active">Book your Seat</li>
                 </ul>
                 <!-- END BREADCRUMB -->                                                
-                
-                <!-- PAGE TITLE -->
-                <div class="page-title">                    
-                    <h2><span class="glyphicon glyphicon-plane"></span>Bus</h2>
-                </div>
-                <!-- END PAGE TITLE --> 
 
                 <!-- PAGE CONTENT WRAPPER -->
                 <div class="page-content-wrap">                
@@ -43,7 +37,7 @@
                             <!-- START WIZARD WITH VALIDATION -->
                             <div class="panel panel-default" >
                                 <div class="panel-body">
-                                    <h3>Wizard with form validation</h3>                                
+                                    <h3>Select Seat(s)</h3>                                
                                     <!-- <form action="javascript:alert('Validated!');" role="form" class="form-horizontal" id="wizard-validation"> -->
                                     <!-- {!! Form::open(array('route' => 'insertBookSeat', 'class'=>'form-horizontal', 'id'=>'wizard-validation', 'role'=>'form')) !!} -->
                                     {!! Form::open(array('route' => array('insertBookSeat', $bustype_id), 'id'=>'wizard-validation', 'role'=>'form', 'class'=>'form-horizontal')) !!}
