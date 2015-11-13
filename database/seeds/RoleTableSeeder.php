@@ -11,9 +11,9 @@ class RoleTableSeeder extends Seeder
      */
     public function run()
     {
-        if (App::environment() === 'production') {
-            exit('I just stopped you getting fired. Love, Amo.');
-        }
+        // if (App::environment() === 'production') {
+        //     exit('I just stopped you getting fired. Love, Amo.');
+        // }
 
         DB::table('roles')->insert([
             'id'            => 1,
