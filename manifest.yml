@@ -1,14 +1,8 @@
 ---
-declared-services:
-  mysql-db:
-    label: cleardb
-    plan: spark
-
 applications:
-- name: tpms-dashboard
-  memory: 128M 
-  instances: 1
-  random-route: true
-  path: ./
-  stack: cflinuxfs2
-  buildpack: php_buildpack
+- name: your-app-name-here
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/php-buildpack#v3.2.0
+  env:
+    CF_STAGING_TIMEOUT: 15
+    CF_STARTUP_TIMEOUT: 15
