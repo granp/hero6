@@ -10,7 +10,7 @@ use App\Http\Controllers\OtherFunctionsController;
 use Mail; 
 use DB;
 use Validator;
-use App\model\organization;
+use App\model\Organization;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
