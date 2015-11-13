@@ -1,10 +1,6 @@
 {
      "PHP_VERSION": "{PHP_55_LATEST}",
-     "COMPOSER_VENDOR_DIR": "./vendor",
-     "COMPOSER_INSTALL_OPTIONS": [ "--no-dev", "--no-scripts", "--no-interaction"],
-     "WEBDIR": "./public",
-     "PHP_MODULES": ["cli"],
-     "ZEND_EXTENSIONS": ["opcache"],
-     "PHP_EXTENSIONS": [ "mysqli", "bz2", "zlib", "openssl", "fpm", "tokenizer", "curl", "mcrypt", "mbstring", "pdo", "pdo_mysql"]
-     "ADDITIONAL_PREPROCESS_CMDS": ["php artisan migrate:refresh --seed --force"]
+     "COMPOSER_VENDOR_DIR": "htdocs/vendor",
+     "WEBDIR": "htdocs/public",
+     "PHP_EXTENSIONS": [ "bz2", "zlib", "openssl", "fpm", "tokenizer", "curl", "mcrypt", "mbstring", "pdo"]
 }
