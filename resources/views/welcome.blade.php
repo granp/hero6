@@ -40,7 +40,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Larga 1.0</div>
-                <p><strong>BUS BOOKING APPLICATION</strong></p>
+                <p><strong>-BUS BOOKING APPLICATION-</strong></p>
                     <div class="panel-body">                  
                         <p>
                             <a href="{{ URL::route('becomeClient') }}">
