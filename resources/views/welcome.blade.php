@@ -4,7 +4,8 @@
         <title>Laravel</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
+        <!-- CSS INCLUDE -->        
+        {!! Html::style( asset('css/theme-default.css'), array('id' => 'theme')) !!}
         <style>
             html, body {
                 height: 100%;
@@ -38,7 +39,17 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Larga 1.0</div>
+                <p><strong>BUS BOOKING APPLICATION</strong></p>
+                    <div class="panel-body">                  
+                        <p>
+                            <a href="{{ URL::route('becomeClient') }}">
+                                <button type="button" class="btn btn-primary btn-lg">
+                                    <strong>Become a Client</strong>
+                                </button>
+                            </a>
+                        </p>
+                    </div>
             </div>
         </div>
     </body>

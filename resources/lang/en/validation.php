@@ -88,8 +88,11 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'busSeatRow' => [
+            'dsrow' => 'The Bus Seat is too short',
+        ],
+        'routetotravel' => [
+            'routedefault' => 'You should select valid Route to travel.',
         ],
     ],
 

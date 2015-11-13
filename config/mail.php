@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'user_support@genki.comp', 'name' => 'Genki'],
 
     /*
     |--------------------------------------------------------------------------
