@@ -2,6 +2,5 @@
 "PHP_VERSION": "{PHP_55_LATEST}",
 "COMPOSER_VENDOR_DIR": "vendor",
 "WEBDIR": "public",
-"WEB_SERVER": "nginx",
 "PHP_EXTENSIONS": ["bz2","zlib","openssl","fpm","tokenizer","curl","mcrypt","mbstring","pdo","mysql","mysqli","mysqlnd","pdo_mysql","apcu","mailparse","pdo_sqlite","Phar","shmop"]
 }
