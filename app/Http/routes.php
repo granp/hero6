@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-	var_dump(getenv('CF_STAGING_TIMEOUT'));
+	// var_dump(getenv('CF_STAGING_TIMEOUT'));
     return view('welcome');
 });
 Route::get('/home', function () {
