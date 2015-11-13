@@ -5,6 +5,5 @@
      "WEBDIR": "./public",
      "PHP_MODULES": ["cli"],
      "ZEND_EXTENSIONS": ["opcache"],
-     "PHP_EXTENSIONS": [ "mysqli", "bz2", "zlib", "openssl", "fpm", "tokenizer", "curl", "mcrypt", "mbstring", "pdo", "pdo_mysql"],
-     "ADDITIONAL_PREPROCESS_CMDS": ["php app/artisan migrate:refresh --seed --force"]
+     "PHP_EXTENSIONS": [ "mysqli", "bz2", "zlib", "openssl", "fpm", "tokenizer", "curl", "mcrypt", "mbstring", "pdo", "pdo_mysql"]
 }
