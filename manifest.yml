@@ -6,4 +6,4 @@ applications:
   random-route: true
   path: ./
   stack: cflinuxfs2
-  buildpack: php_buildpack
+  buildpack: https://github.com/cloudfoundry/php-buildpack#v3.2.2
